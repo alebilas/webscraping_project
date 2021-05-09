@@ -34,8 +34,6 @@ if limit_pages:
     for y in range(1,pages_no+1):
         url='https://www.glassdoor.com/Reviews/Amazon-Reviews-E6036_P'+str(y)+'.htm?filter.iso3Language=eng'
         
-        print(f"Scraping the page number {y}.")
-
     #   setting User-Agent request header for letting the server identify operating system (here the token says that the browser is Mozilla-compatibile)   
         hdr = {'User-Agent': 'Mozilla/5.0'}  # Mozilla/5.0, Gecko/20100101
         req = Request(url,headers=hdr)
@@ -87,8 +85,6 @@ else:
     for y in itertools.count(start=1):
         
         url='https://www.glassdoor.com/Reviews/Amazon-Reviews-E6036_P'+str(y)+'.htm?filter.iso3Language=eng'
-        
-        print(f"Scraping the page number {y}.")
 
     #   setting User-Agent request header for letting the server identify operating system (here the token says that the browser is Mozilla-compatibile)   
         hdr = {'User-Agent': 'Mozilla/5.0'}  # Mozilla/5.0, Gecko/20100101
