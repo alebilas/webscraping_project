@@ -27,4 +27,4 @@ In terminal go to location where the BS project script is saved, e.g. cd .\selen
 
 python3 .\scrape_selenium.py
 
-You will need credentials provided at the top of the README.md file to execute the script.
+You will need credentials provided at the top of the README.md file to execute the script. Also, the drive needs to be changes inside the script.
