@@ -8,14 +8,17 @@ In terminal go to location where the code is stored, e.g.:
 cd .\Desktop\webscraping
 
 #### BeautifulSoup
+-----
 In terminal go to location where the BS project script is saved, e.g. cd .\soup (after running the above code). The execute:
 python3 .\scrape_bs.py
 
 #### Scrapy
+-----
 In terminal go to location where the BS project script is saved, e.g. cd .\scrapy (after running the first code). The execute:
 python3 .\scrape_scrapy.py
 
 #### Selenium
+-----
 In terminal go to location where the BS project script is saved, e.g. cd .\selenium (after running the first code). The execute*:
 python3 .\scrape_selenium.py
 
