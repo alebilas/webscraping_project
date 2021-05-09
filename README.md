@@ -23,8 +23,8 @@ python3 .\scrape_scrapy.py
 
 #### Selenium
 -----
-In terminal go to location where the BS project script is saved, e.g. cd .\selenium (after running the first code). The execute*:
+In terminal go to location where the BS project script is saved, e.g. cd .\selenium (after running the first code). The execute:
 
 python3 .\scrape_selenium.py
 
-* You will need credentials provided at the top of the README.md file to execute the script.
+You will need credentials provided at the top of the README.md file to execute the script.
