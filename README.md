@@ -19,7 +19,7 @@ python3 .\scrape_bs.py
 -----
 In terminal go to location where the BS project script is saved, e.g. cd .\scrapy (after running the first code). The execute:
 
-python3 .\scrape_scrapy.py
+scrapy runspider .\scrape_scrapy.py
 
 #### Selenium
 -----
