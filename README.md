@@ -2,11 +2,11 @@
 -----
 First, log in to Glassdoor, because the first 2 scripts will not fully work without it (the website has limitations in terms of unknown users activity).
 Email: ab.jb.webscraping@gmail.com
-
 Password: webscraping2021
 
+#### Start
+-----
 In terminal go to location where the code is stored, e.g.:
-
 cd .\Desktop\webscraping
 
 #### BeautifulSoup
